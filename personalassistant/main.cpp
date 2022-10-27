@@ -173,7 +173,7 @@ int main()
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
-                    system("start https://www.linkedin.com");
+                    system("start https://www.linkedin.com/in/tushar-gupta-12b284214/");
                 }
                 else if(command=="open facebook")
                 {
