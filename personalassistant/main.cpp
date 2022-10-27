@@ -173,7 +173,7 @@ int main()
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
-                    system("start https://www.google.com");
+                    system("start https://www.linkedin.com");
                 }
                 else if(command=="open facebook")
                 {
@@ -214,19 +214,6 @@ int main()
                     const char *charCommand = command.c_str();
                     system(charCommand);
                     ShellExecute(NULL,"open","TUSHARGUPTA.png",NULL, NULL, SW_NORMAL);
-                }
-
-
-
-
-                else if(command=="open video")
-                {
-                    cout<<"opening video"<<endl;
-                    string phrase = "opening video";
-                    string command = "espeak \"" + phrase + "\"";
-                    const char *charCommand = command.c_str();
-                    system(charCommand);
-                    ShellExecute(NULL,"open","C:\\Users\\rajiv\\Documents\\Zoom\\edit distance.mp4",NULL, NULL, SW_NORMAL);
                 }
 
                 else if(command=="bye" || command=="exit")
